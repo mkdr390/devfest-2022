@@ -1,0 +1,53 @@
+[
+    {
+        "sessionName": "PWA in 20 Minutes",
+        "sessionColor": "geekblue",
+        "sessionDescription": "Let's sit for an energizing session on Progressive Web Apps!",
+        "sessionStartTime": "09:00",
+        "sessionEndTime": "10:00",
+        "speakerName": "Praveen Thirumurugan",
+        "speakerRole": "SDE, Trimble Inc.",
+        "speakerImage": "assets/team/praveen.jpg",
+        "speakerDescription": "PWA Session",
+        "twitter": "https://twitter.com/thirupraveen18",
+        "linkedin": "https://linkedin.com/in/thirupraveen18",
+        "github": "https://github.com/thirupraveen18",
+        "link": "https://praveent.com"
+    },
+    {
+        "sessionName": "Android Jetpack 101",
+        "sessionColor": "green",
+        "sessionDescription": "Buzzed about android? Here comes Fahid to give you more insights on Jetpack!",
+        "sessionStartTime": "09:00",
+        "sessionEndTime": "10:00",
+        "speakerName": "Fahid M",
+        "speakerRole": "SDE, Classworks India.",
+        "speakerImage": "assets/speakers/fahid.jpg",
+        "speakerDescription": "Android Jetpack",
+        "twitter": "https://twitter.com/thirupraveen18",
+        "linkedin": "https://linkedin.com/in/thirupraveen18",
+        "github": "https://github.com/thirupraveen18",
+        "link": "https://praveent.com"
+    },
+    {
+        "sessionName": "Lunch 🍽🍕🍚",
+        "sessionColor": "#000000",
+        "sessionStartTime": "09:00",
+        "sessionEndTime": "10:00"
+    },
+    {
+        "sessionName": "Tensorflow in Google Cloud",
+        "sessionColor": "orange",
+        "sessionDescription": "New to Tensorflow? It has far more uses than you would imagine, know more about it.",
+        "sessionStartTime": "09:00",
+        "sessionEndTime": "10:00",
+        "speakerName": "Praveen Thirumurugan",
+        "speakerRole": "SDE, Trimble Inc.",
+        "speakerImage": "assets/team/praveen.jpg",
+        "speakerDescription": "Tensor Flow",
+        "twitter": "https://twitter.com/thirupraveen18",
+        "linkedin": "https://linkedin.com/in/thirupraveen18",
+        "github": "https://github.com/thirupraveen18",
+        "link": "https://praveent.com"
+    }
+]
