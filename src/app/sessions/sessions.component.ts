@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import speakers from '../../assets/json/speakers.json';
+// import speakers from '../../assets/json/speakers.json';
+import session from '../../assets/json/session.json';
 
 @Component({
   selector: 'app-sessions',
@@ -17,13 +18,34 @@ export class SessionsComponent implements OnInit {
   }
 
   initTeam(): void {
-    var parent = this;
-    speakers.forEach(function(object){
-      parent.speakersList.push({'sessionName': object["sessionName"], 'sessionStartTime': object["sessionStartTime"], 'sessionEndTime': object["sessionEndTime"],
-      'sessionColor': object["sessionColor"], 'name': object["speakerName"], 'role': object["speakerRole"], 'image': object["speakerImage"],
-      'twitter': object["twitter"], 'github': object["github"], 'linkedin': object["linkedin"], 'link': object["link"],
-      'sessionDescription': object["sessionDescription"], 'speakerDescription': object["speakerDescription"]});
-    });
+    this.speakersList = session.map(({
+      sessionName,
+      sessionStartTime,
+      sessionEndTime,
+      sessionColor,
+      speakerName: name,
+      speakerRole: role,
+      speakerImage: image,
+      twitter,
+      github,
+      linkedin,
+      link,
+      sessionDescription,
+      speakerDescription
+    }) => ({
+      sessionName,
+      sessionStartTime,
+      sessionEndTime,
+      sessionColor,
+      name,
+      role,
+      image,
+      twitter,
+      github,
+      linkedin,
+      link,
+      sessionDescription,
+      speakerDescription
+    }))
   }
-
 }
