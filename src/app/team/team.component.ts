@@ -8,6 +8,7 @@ import team from '../../assets/json/team.json';
 })
 export class TeamComponent implements OnInit {
 
+  team: any[] = [];
   leads: any[] = [];
   coreTeam: any[] = [];
   volunteerTeam: any[] = [];
@@ -19,22 +20,7 @@ export class TeamComponent implements OnInit {
   }
 
   initTeam(): void {
-    var parent = this;
-    team["leads"].forEach(function(object){
-      parent.leads.push({'name': object["name"], 'image': object["image"],
-      'role': object["role"], 'twitter': object["twitter"], 'github': object["github"],
-      'linkedin': object["linkedin"], 'link': object["link"]});
-    });
-    team["core"].forEach(function(object){
-      parent.coreTeam.push({'name': object["name"], 'image': object["image"],
-      'role': object["role"], 'twitter': object["twitter"], 'github': object["github"],
-      'linkedin': object["linkedin"], 'link': object["link"]});
-    });
-    team["volunteers"].forEach(function(object){
-      parent.volunteerTeam.push({'name': object["name"], 'image': object["image"],
-      'role': object["role"], 'twitter': object["twitter"], 'github': object["github"],
-      'linkedin': object["linkedin"], 'link': object["link"]});
-    });
+    this.team = team.map(({ name, image, role, twitter, linkedin }) => ({ name, image, role, twitter, linkedin }));
   }
 
 }

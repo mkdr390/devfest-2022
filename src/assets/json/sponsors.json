@@ -14,6 +14,7 @@
   {
     "name": "GDG",
     "logo": "assets/icons/yourlogohere.png",
-    "level": "Contact us"
+    "level": "Contact us",
+    "link": "/contact-us"
   }
 ]
