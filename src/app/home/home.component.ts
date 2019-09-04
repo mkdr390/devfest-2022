@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import basics from '../../assets/json/basics.json';
 import sponsors from '../../assets/json/sponsors.json';
 import partners from '../../assets/json/partners.json';
-import speakers from '../../assets/json/speakers.json';
+import session from '../../assets/json/session.json';
 
 @Component({
   selector: 'app-home',
@@ -63,25 +63,36 @@ export class HomeComponent implements OnInit {
   }
 
   initSpeakers(): void {
-    var parent = this;
-    speakers.forEach(function(object){
-      parent.speakersList.push({'sessionName': object["sessionName"], 'sessionStartTime': object["sessionStartTime"],
-      'sessionEndTime': object["sessionEndTime"], 'sessionColor': object["sessionColor"],
-      'speakerName': object["speakerName"], 'speakerRole': object["speakerRole"], 'speakerImage': object["speakerImage"]});
-    });
+    this.speakersList = session.filter(item => item.feature).map(({
+      sessionName,
+      sessionStartTime,
+      sessionEndTime,
+      sessionColor,
+      speakerName,
+      speakerRole,
+      speakerImage
+    }) => ({
+      sessionName,
+      sessionStartTime,
+      sessionEndTime,
+      sessionColor,
+      speakerName,
+      speakerRole,
+      speakerImage
+    }));
   }
 
   initPartners(): void {
     var parent = this;
-    partners.forEach(function(object){
-      parent.partnersList.push({'name': object["name"], 'logoPath': object["logo"]});
+    partners.forEach(function (object) {
+      parent.partnersList.push({ 'name': object["name"], 'logoPath': object["logo"] });
     });
   }
 
   initSponsors(): void {
     var parent = this;
-    sponsors.forEach(function(object){
-      parent.sponsorsList.push({'name': object["name"], 'logoPath': object["logo"], 'level': object["level"]});
+    sponsors.forEach(function (object) {
+      parent.sponsorsList.push({ 'name': object["name"], 'logoPath': object["logo"], 'level': object["level"], 'link': object["link"] });
     });
   }
 

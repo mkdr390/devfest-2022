@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import speakers from '../../assets/json/speakers.json';
 import session from '../../assets/json/session.json';
 
 @Component({

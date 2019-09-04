@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import speakers from '../../assets/json/speakers.json';
+import session from '../../assets/json/session.json';
 
 @Component({
   selector: 'app-events',
@@ -18,12 +18,26 @@ export class EventsComponent implements OnInit {
   }
 
   initTeam(): void {
-    var parent = this;
-    speakers.forEach(function(object){
-      parent.speakersList.push({'sessionName': object["sessionName"], 'sessionStartTime': object["sessionStartTime"], 'sessionEndTime': object["sessionEndTime"],
-      'sessionColor': object["sessionColor"], 'name': object["speakerName"], 'role': object["speakerRole"], 'image': object["speakerImage"],
-      'description': object["speakerDescription"],'twitter': object["twitter"], 'github': object["github"], 'linkedin': object["linkedin"], 'link': object["link"]});
-    });
+    this.speakersList = session.filter(item => item.speaker).map(({
+      sessionName,
+      sessionStartTime,
+      sessionEndTime,
+      sessionColor,
+      speakerName: name,
+      speakerRole: role,
+      speakerImage: image,
+      speakerDescription: description,
+      linkedin
+    }) => ({
+      sessionName,
+      sessionStartTime,
+      sessionEndTime,
+      sessionColor,
+      name,
+      role,
+      image,
+      linkedin
+    }));
   }
 
 }

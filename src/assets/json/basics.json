@@ -1,16 +1,15 @@
-{
+ {
     "name": "GDG Trivandrum",
     "email": "gdg.thiruvanathapuram@gmail.com",
     "mobile": "+91 97451 21826",
     "logo-path": "assets/icons/logo.png",
     "description": "Developers based non-profit developer group to learn, share and discover more about Google's evolving technologies.",
-    "meetup-slug": "gdg-cloud-coimbatore",
+    "meetup-slug": "gdgtvpm",
     "meetup-api-key": "206f6645405018364f15215286f4368",
     "registrationURL": "https://meetup.com/",
     "eventLocation": "Technopark, Trivandrum, India.",
-    "eventDate": "September 14, 2019",
-    "facebook": "https://www.facebook.com/",
-    "twitter": "https://www.twitter.com/",
-    "github": "https://github.com",
-    "instagram": "https://www.instagram.com/"
+    "eventDate": "September 21, 2019",
+    "facebook": "https://www.facebook.com/gdgtvpm/",
+    "twitter": "https://twitter.com/gdgtvpm",
+    "github": "https://github.com"
 }

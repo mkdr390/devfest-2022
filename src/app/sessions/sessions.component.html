@@ -1,33 +1,36 @@
 <div class="container mt-5 mb-5">
-    <h4 class="pt-5 pb-2 mt-5 text-center">Event Sessions</h4>
-    <p class="pb-2 font-regular text-center">
-        Be sure to reach the venue on time to catch all the fun and surprises in the event. This event is RSVP enabled and the attendee must posses the e-Pass of the event at all times for entry. 
-    </p>
-    <div class="row justify-content-center">
-        <div class="col-md 12">
-            <div class="material-border">
-                <div *ngFor="let lead of speakersList" class="row">
-                    <div class="col-md-2">
-                        <span style="font-size: 24px" class="ant-statistic-content-prefix ng-star-inserted">{{lead.sessionStartTime}}</span>
-                        <span class="ant-statistic-content-suffix ng-star-inserted">/{{lead.sessionEndTime}}</span>
-                    </div>
-                    <div class="col-md-10"> 
-                        <nz-tag class="tag" [nzColor]="lead.sessionColor">{{lead.sessionName}}</nz-tag>
-                        <p *ngIf="lead.sessionDescription" class="pb-2 pt-2 mb-0 font-regular color-333333">{{lead.sessionDescription}}</p>
-                        <div *ngIf="lead.name" class="row">
-                            <div class="ml-1">
-                                <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-42" [src]='lead.image' />
-                                <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-42" src="assets/icons/placeholder.svg" />
-                            </div>
-                            <div class="col-md-3" style="align-self: center">
-                                <p class="mt-0 mb-0 color-333333">{{lead.name}}</p>
-                                <p class="mt-0 mb-0 font-regular color-333333">{{lead.role}}</p>
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-                </div>
+  <h4 class="pt-5 pb-2 mt-5 text-center">Event Sessions</h4>
+  <p class="pb-2 font-regular text-center">
+    Be sure to reach the venue on time to catch all the fun and surprises in the event. This event is RSVP enabled and
+    the attendee must posses the e-Pass of the event at all times for entry.
+  </p>
+  <div class="row justify-content-center">
+    <div class="col-md 12">
+      <div class="material-border">
+        <div *ngFor="let lead of speakersList" class="row">
+          <div class="col-md-2">
+            <span style="font-size: 24px"
+              class="ant-statistic-content-prefix ng-star-inserted">{{lead.sessionStartTime}}</span>
+            <span class="ant-statistic-content-suffix ng-star-inserted">/{{lead.sessionEndTime}}</span>
+          </div>
+          <div class="col-md-10">
+            <nz-tag class="tag" [nzColor]="lead.sessionColor">{{lead.sessionName}}</nz-tag>
+            <p *ngIf="lead.sessionDescription" class="pb-2 pt-2 mb-0 font-regular color-333333">
+              {{lead.sessionDescription}}</p>
+            <div *ngIf="lead.name" class="row">
+              <div class="ml-1">
+                <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-42" [src]='lead.image' />
+                <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-42" src="assets/icons/placeholder.svg" />
+              </div>
+              <div class="col-md-10" style="align-self: center">
+                <p class="mt-0 mb-0 color-333333">{{lead.name}}</p>
+                <p class="mt-0 mb-0 font-regular color-333333">{{lead.role}}</p>
+              </div>
             </div>
+            <hr>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
