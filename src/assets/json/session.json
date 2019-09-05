@@ -57,7 +57,7 @@
   {
     "sessionName": "Deep Learning for Social Good",
     "sessionColor": "gold",
-    "sessionDescription": "More details comming soon",
+    "sessionDescription": null,
     "sessionStartTime": "11:45",
     "sessionEndTime": "12:30",
     "speakerName": "Usha Rengaraju",
@@ -79,15 +79,15 @@
     "sessionEndTime": "13:30"
   },
   {
-    "sessionName": "Tech talk / interactive session",
+    "sessionName": "AI beyond model.predict",
     "sessionColor": "green",
-    "sessionDescription": "More details comming soon",
+    "sessionDescription": null,
     "sessionStartTime": "13:30",
     "sessionEndTime": "14:15",
     "speakerName": "Charush S",
     "speakerRole": "CTO Accubits | AI | Blockchain",
-    "speakerImage": "/assets/images/charus.jpg",
-    "speakerDescription": null,
+    "speakerImage": "/assets/images/charush.jpg",
+    "speakerDescription": "Charush S Nair is a technologist and AI evangelist. He is the CTO of Accubits Technologies . He is an active speaker, who has conducted several talk sessions on AI, HPC and is collaborating with several developers and enthusiast communities around the world.",
     "twitter": null,
     "linkedin": "https://www.linkedin.com/in/charush/",
     "github": null,
@@ -118,7 +118,7 @@
     "speaker": true
   },
   {
-    "sessionName": "Inspirational talk/session",
+    "sessionName": "Inspirational talk / session",
     "sessionColor": "blue",
     "sessionDescription": "More details comming soon",
     "sessionStartTime": "15:00",
@@ -136,7 +136,7 @@
   {
     "sessionName": "Tea break 🍵🍪🍩",
     "sessionColor": "#F44336",
-    "sessionDescription": "Hot tea or coffee with few cokkies and a whole lot of small talks",
+    "sessionDescription": "Hot tea or coffee with few cookies and a whole lot of small talks",
     "speakerImage": "",
     "sessionStartTime": "15:30",
     "sessionEndTime": "15:45"
