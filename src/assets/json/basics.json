@@ -1,5 +1,5 @@
  {
-    "name": "GDG Trivandrum",
+    "name": "GDG Thiruvanathapuram",
     "email": "gdg.thiruvanathapuram@gmail.com",
     "mobile": "+91 97451 21826",
     "logo-path": "assets/icons/logo.png",
@@ -7,7 +7,7 @@
     "meetup-slug": "gdgtvpm",
     "meetup-api-key": "206f6645405018364f15215286f4368",
     "registrationURL": "http://bit.ly/gdgtvpm-devfest19-registration",
-    "eventLocation": "Technopark, Trivandrum, India.",
+    "eventLocation": "Technopark, Thiruvanathapuram, India.",
     "eventDate": "September 21, 2019",
     "facebook": "https://www.facebook.com/gdgtvpm/",
     "twitter": "https://twitter.com/gdgtvpm",
