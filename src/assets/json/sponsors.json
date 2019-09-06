@@ -1,15 +1,15 @@
 [
   {
+    "name": "GDG",
+    "logo": "assets/icons/gdg.png",
+    "level": "Main",
+    "link": "https://developers.google.com/community/gdg/"
+  },
+  {
     "name": "QBurst",
     "logo": "assets/icons/qburst.svg",
     "level": "Venue",
     "link": "https://www.qburst.com"
-  },
-  {
-    "name": "GDG",
-    "logo": "assets/icons/gdg.png",
-    "level": "Logistics",
-    "link": "https://developers.google.com/community/gdg/"
   },
   {
     "name": "GDG",
