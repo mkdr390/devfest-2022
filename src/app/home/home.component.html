@@ -109,6 +109,13 @@
               </a>
             </div>
           </div>
+          <h5 class="pt-4 pb-4">Collaborators</h5>
+          <div class="text-center justify-content-center mb-2">
+            <a *ngFor="let collaborator of collaboratorsList"  target="_blank" [href]="collaborator.link">
+            <img class="material-border-image" alt="{{collaborator.name}}"
+              [src]='collaborator.logoPath' height="100px" />
+            </a>
+          </div>
         </div>
         <p class="pt-4 font-regular">
           Our community partners play a helpful role in successfully running the community initiatives and
@@ -122,7 +129,7 @@
     </div>
   </div>
 
-  <!-- <h5 class="pt-4 pb-2">Excited about the event?</h5>
+  <h5 class="pt-4 pb-2">Excited about the event?</h5>
     <div class="row">
         <div class="col-md-12 over-p-lr">
             <div class="material-border">
@@ -131,17 +138,15 @@
                         <img style="margin: 16px; border-radius: 32px" src="assets/icons/share_cover.png" class="p8" height="300px" />
                     </div>
                     <div class="col-md-8 pt-1" style="align-self: center">
-                        <h1 class="color-333333">#DevFest19</h1>
-                        <p class="mt-4">Share what you're looking forward in the event or ask the speakers a question!<br>
-                            Who knows? Maybe your question will be answered during the event in our live Q&A Forum.</p>
+                        <h1 class="color-333333">#DevFest2019</h1>
+                        <p class="mt-4">Share what you're looking forward in the event or ask a question!</p>
                         <div style="align-self: center">
-                            <a target="_blank" href="{{instagramPath}}"><i style="margin-left: 4px" nz-icon [nzType]="'instagram'"></i></a>
-                            <a target="_blank" href="{{twitterPath}}"><i style="margin-left: 4px" nz-icon [nzType]="'twitter'"></i></a>
                             <a target="_blank" href="{{facebookPath}}"><i style="margin-left: 4px" nz-icon [nzType]="'facebook'"></i></a>
+                            <a target="_blank" href="{{twitterPath}}"><i style="margin-left: 4px" nz-icon [nzType]="'twitter'"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 </div>

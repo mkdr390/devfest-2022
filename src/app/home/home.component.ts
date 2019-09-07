@@ -3,6 +3,7 @@ import basics from '../../assets/json/basics.json';
 import sponsors from '../../assets/json/sponsors.json';
 import partners from '../../assets/json/partners.json';
 import session from '../../assets/json/session.json';
+import collaborators from '../../assets/json/collaborators.json';
 
 @Component({
   selector: 'app-home',
@@ -14,6 +15,7 @@ export class HomeComponent implements OnInit {
   speakersList: any[] = [];
   partnersList: any[] = [];
   sponsorsList: any[] = [];
+  collaboratorsList: any[] = [];
   communityName: string;
   communityEmail: string;
   communityMobile: string;
@@ -35,6 +37,7 @@ export class HomeComponent implements OnInit {
     this.initSpeakers();
     this.initSponsors();
     this.initPartners();
+    this.initCollaborators();
   }
 
   initBasics(): void {
@@ -93,6 +96,13 @@ export class HomeComponent implements OnInit {
     var parent = this;
     sponsors.forEach(function (object) {
       parent.sponsorsList.push({ 'name': object["name"], 'logoPath': object["logo"], 'level': object["level"], 'link': object["link"] });
+    });
+  }
+
+  initCollaborators(): void {
+    var parent = this;
+    collaborators.forEach(function (object) {
+      parent.collaboratorsList.push({ 'name': object["name"], 'logoPath': object["logo"], 'level': object["level"], 'link': object["link"] });
     });
   }
 

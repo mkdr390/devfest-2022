@@ -10,9 +10,14 @@
     "image": "/assets/images/remya.jpg"
   },
   {
-    "name": "Ananaya Anu",
-    "role": "Women Techmakers Ambassador / Assistant Organizer",
-    "image": "/assets/images/ananaya.jpeg"
+    "name": "Ananya Raman Iyer",
+    "role": "Women Techmakers Ambassador / Community Co-Organizer",
+    "image": "/assets/images/ananaya.jpg"
+  },
+  {
+    "name": "Vijay Dev",
+    "role": "Assistant Organizer",
+    "image": "/assets/images/vijay.jpeg"
   },
   {
     "name": "Jino Jossy",
@@ -23,10 +28,5 @@
     "name": "Manikandan",
     "role": "Assistant Organizer",
     "image": "/assets/images/mani.jpeg"
-  },
-  {
-    "name": "Vijay Dev",
-    "role": "Assistant Organizer",
-    "image": "/assets/images/vijay.jpeg"
   }
 ]
