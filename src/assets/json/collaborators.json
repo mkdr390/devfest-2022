@@ -3,5 +3,10 @@
     "name": "iTALK",
     "logo": "assets/icons/italk.png",
     "link": "https://www.renjitkeshav.com/"
+  },
+  {
+    "name": "Technopark Today",
+    "logo": "assets/icons/technoparktodaylogo.png",
+    "link": "http://www.technoparktoday.com/"
   }
 ]

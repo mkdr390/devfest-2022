@@ -32,7 +32,7 @@
     "order": 1
   },
   {
-    "sessionName": "Tech talk / interactive session",
+    "sessionName": "Tech Talk / Interactive Session",
     "sessionColor": "volcano",
     "sessionDescription": "More details comming soon",
     "sessionStartTime": "10:45",
@@ -77,7 +77,7 @@
   {
     "sessionName": "Lunch 🥗🍗🍖🍬",
     "sessionColor": "#F44336",
-    "sessionDescription": "A true challenge for the introvert within us",
+    "sessionDescription": "Food for belly!",
     "sessionStartTime": "12:30",
     "sessionEndTime": "13:30"
   },
@@ -89,7 +89,7 @@
     "sessionEndTime": "14:15",
     "speakerName": "Charush S",
     "speakerRole": "CTO Accubits | Artificial Intelligence | Blockchain",
-    "speakerImage": "/assets/images/charush.jpg",
+    "speakerImage": "/assets/images/charush.png",
     "speakerDescription": "Charush S Nair is a technologist and AI evangelist. He is the CTO of Accubits Technologies . He is an active speaker, who has conducted several talk sessions on AI, HPC and is collaborating with several developers and enthusiast communities around the world.",
     "twitter": null,
     "linkedin": "https://www.linkedin.com/in/charush/",
@@ -113,7 +113,7 @@
     "sessionEndTime": "15:00",
     "speakerName": "Mithila Chandran",
     "speakerRole": "Sr. UX Engineer, Certified User Experience Analyst",
-    "speakerImage": "/assets/images/mithila.jpg",
+    "speakerImage": "/assets/images/mithila.png",
     "speakerDescription": null,
     "twitter": null,
     "linkedin": "https://www.linkedin.com/in/mithila-chandran-2812ab111",
@@ -155,7 +155,7 @@
     "sessionEndTime": "16:15",
     "speakerName": "Renjit Ravi Keshav",
     "speakerRole": "Social Policy Analyst & Leadership Trainer",
-    "speakerImage": "/assets/images/renjith.jpg",
+    "speakerImage": "/assets/images/renjith.png",
     "speakerDescription": null,
     "twitter": null,
     "linkedin": "https://www.linkedin.com/in/renjit-ravi-keshav-a4071a15/",
@@ -182,6 +182,7 @@
   {
     "sessionName": "Prices and goodies 🏅🎁🎀",
     "sessionColor": "#F44336",
+    "sessionDescription": "And the winners are...",
     "sessionStartTime": "16:30",
     "speakerDescription": "Price distribution and networking"
   }
