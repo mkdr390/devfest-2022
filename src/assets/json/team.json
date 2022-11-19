@@ -2,31 +2,34 @@
   {
     "name": "Arun Shanker",
     "role": "Community Organizer",
-    "image": "/assets/images/arun.jpeg"
+    "image": "/assets/images/arun.jpeg",
+    "linkedin": "https://linkedin.com/in/arunshankerprasad"
   },
   {
     "name": "Remya P Vava",
     "role": "Women Techmakers Ambassador / Community Co-Organizer",
-    "image": "/assets/images/remya.jpg"
+    "image": "/assets/images/remya.jpg",
+    "twitter": "https://twitter.com/remyapvava",
+    "linkedin": "https://linkedin.com/in/remyapvava",
+    "github": "https://github.com/remyapvava",
+    "link": "https://instagram.com/rp_vava/"
   },
   {
-    "name": "Ananya Raman Iyer",
-    "role": "Women Techmakers Ambassador / Community Co-Organizer",
-    "image": "/assets/images/ananaya.jpg"
+    "name": "Vishnu",
+    "role": "Community Co-Organizer",
+    "image": "/assets/images/vishnu.jpg",
+    "twitter": "https://twitter.com/vishnuhx",
+    "linkedin": "https://linkedin.com/in/vishnuharidas",
+    "github": "https://github.com/vishnuharidas",
+    "link": "https://iamvishnu.com/about/"
   },
   {
-    "name": "Vijay Dev",
-    "role": "Assistant Organizer",
-    "image": "/assets/images/vijay.jpeg"
-  },
-  {
-    "name": "Jino Jossy",
-    "role": "Assistant Organizer",
-    "image": "/assets/images/jino.jpeg"
-  },
-  {
-    "name": "Manikandan",
-    "role": "Assistant Organizer",
-    "image": "/assets/images/mani.jpeg"
+    "name": "Manikandan Ramar",
+    "role": "Community Co-Organizer",
+    "image": "/assets/images/mani.jpg",
+    "twitter": "https://twitter.com/mkdr390",
+    "linkedin": "https://linkedin.com/in/mkdr390",
+    "github": "https://github.com/mkdr390",
+    "link": "https://instagram.com/mkdr390"
   }
 ]

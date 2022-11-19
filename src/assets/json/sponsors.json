@@ -2,20 +2,8 @@
   {
     "name": "GDG",
     "logo": "assets/icons/gdg.png",
-    "level": "Main",
+    "level": "Venue & FnB",
     "link": "https://developers.google.com/community/gdg/"
-  },
-  {
-    "name": "QBurst",
-    "logo": "assets/icons/qburst.svg",
-    "level": "Venue",
-    "link": "https://www.qburst.com"
-  },
-  {
-    "name": "equip",
-    "logo": "assets/icons/equip.png",
-    "level": "General",
-    "link": "https://www.equipo.io/"
   },
   {
     "name": "GDG",

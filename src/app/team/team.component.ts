@@ -20,7 +20,7 @@ export class TeamComponent implements OnInit {
   }
 
   initTeam(): void {
-    this.team = team.map(({ name, image, role }) => ({ name, image, role }));
+    this.team = team.map(({ name, image, role, twitter, linkedin, github, link }) => ({ name, image, role, twitter, linkedin, github, link }));
   }
 
 }
