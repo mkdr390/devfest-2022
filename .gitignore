@@ -183,9 +183,6 @@ typings/
 /tmp
 /out-tsc
 /public
-firebase.json
-.firebaserc
-.firebase/*
 
 # dependencies
 /node_modules
