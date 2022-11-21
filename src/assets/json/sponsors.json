@@ -1,14 +1,14 @@
 [
   {
-    "name": "GDG",
-    "logo": "assets/icons/gdg.png",
-    "level": "Venue & FnB",
-    "link": "https://developers.google.com/community/gdg/"
+    "name": "aTeam Soft Solutions",
+    "logo": "assets/icons/aTeam-Logo.png",
+    "level": "Gold",
+    "link": "https://www.ateamsoftsolutions.com/"
   },
   {
     "name": "GDG",
-    "logo": "assets/icons/yourlogohere.png",
-    "level": "Contact us",
-    "link": "/contact"
+    "logo": "assets/icons/gdg-sponser.png",
+    "level": "Silver",
+    "link": "https://developers.google.com/community/gdg/"
   }
 ]
