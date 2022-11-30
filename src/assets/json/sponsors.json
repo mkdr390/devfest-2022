@@ -10,5 +10,17 @@
     "logo": "assets/icons/gdg-sponser.png",
     "level": "Silver",
     "link": "https://developers.google.com/community/gdg/"
+  },
+  {
+    "name": "KeyValue",
+    "logo": "assets/icons/keyvalue.png",
+    "level": "Bronze",
+    "link": "https://keyvalue.systems/"
+  },
+  {
+    "name": "Incredible Visibility",
+    "logo": "assets/icons/ivs.png",
+    "level": "Bronze",
+    "link": "https://incrediblevisibility.com"
   }
 ]

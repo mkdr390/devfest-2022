@@ -1,7 +1,7 @@
 [
   {
-    "name": "Contact us",
-    "logo": "assets/icons/yourlogohere.png",
-    "link": "/contact"
+    "name": "GDG Cloud Trivandrum",
+    "logo": "assets/icons/GDGCloudTVM.png",
+    "link": "https://gdg.community.dev/gdg-cloud-trivandrum/"
   }
 ]
