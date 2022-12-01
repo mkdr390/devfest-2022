@@ -166,9 +166,9 @@
     "order": 1
   },
   {
-    "sessionName": "Music 🥁🪘🎹🎸🎷🎵🎺",
+    "sessionName": "Souls of Park - A musical treat 🥁🪘🎹🎸🎷🎵🎺",
     "sessionColor": "purple",
-    "sessionDescription": "Enjoy some rocking music by Abhiram Krishna & Band",
+    "sessionDescription": "Enjoy some rocking music by 🎵 Souls of Park - Band",
     "speakerImage": "",
     "sessionStartTime": "14:30",
     "sessionEndTime": "14:50"
@@ -239,7 +239,8 @@
     "link": null,
     "speaker": true,
     "feature": true,
-    "order": 1
+    "order": 1,
+    "combine": 1
   },
   {
     "sessionName": "Tea break 2 🍵🍪🍩",
@@ -251,7 +252,7 @@
   },
   {
     "sessionName": "Bitcoin: The Network of Value",
-    "sessionColor": "pink",
+    "sessionColor": "black",
     "sessionDescription": "",
     "sessionStartTime": "15:45",
     "sessionEndTime": "16:15",
@@ -260,6 +261,23 @@
     "speakerImage": "/assets/images/jikku.jpg",
     "speakerDescription": "Decentralised tech enthusiast.",
     "linkedin": "https://linkedin.com/in/jikkujose",
+    "github": null,
+    "link": null,
+    "speaker": true,
+    "feature": true,
+    "order": 1
+  },
+  {
+    "sessionName": "Teacher to Techie -a journey",
+    "sessionColor": "blue",
+    "sessionDescription": "",
+    "sessionStartTime": "16:15",
+    "sessionEndTime": "16:45",
+    "speakerName": "Shalini L",
+    "speakerRole": "ISTQB Certified Software Test Engineer, InApp",
+    "speakerImage": "/assets/images/shalini.jpg",
+    "speakerDescription": "",
+    "linkedin": "https://linkedin.com/in/shalini-lalithakumari-39812144",
     "github": null,
     "link": null,
     "speaker": true,
