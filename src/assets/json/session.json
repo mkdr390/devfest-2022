@@ -108,7 +108,7 @@
     "order": 1
   },
   {
-    "sessionName": "Kubernetes",
+    "sessionName": "Designing Applications for Kubernetes",
     "sessionColor": "gray",
     "sessionDescription": "",
     "sessionStartTime": "12:15",
