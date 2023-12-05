@@ -1,26 +1,14 @@
 [
   {
-    "name": "aTeam Soft Solutions",
-    "logo": "assets/icons/aTeam-Logo.png",
-    "level": "Gold",
-    "link": "https://www.ateamsoftsolutions.com/"
-  },
-  {
     "name": "GDG",
     "logo": "assets/icons/gdg-sponser.png",
     "level": "Silver",
     "link": "https://developers.google.com/community/gdg/"
   },
   {
-    "name": "KeyValue",
-    "logo": "assets/icons/keyvalue.png",
-    "level": "Bronze",
-    "link": "https://keyvalue.systems/"
-  },
-  {
-    "name": "Incredible Visibility",
-    "logo": "assets/icons/ivs.png",
-    "level": "Bronze",
-    "link": "https://incrediblevisibility.com"
+    "name": "Your Name",
+    "logo": "assets/icons/yourlogohere.png",
+    "level": "Sponser Level",
+    "link": "https://google.com"
   }
 ]
