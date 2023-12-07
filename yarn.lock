@@ -3873,6 +3873,11 @@
   "resolved" "https://registry.npmjs.org/jasminewd2/-/jasminewd2-2.2.0.tgz"
   "version" "2.2.0"
 
+"jquery@1.9.1 - 3":
+  "integrity" "sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg=="
+  "resolved" "https://registry.npmjs.org/jquery/-/jquery-3.7.1.tgz"
+  "version" "3.7.1"
+
 "js-tokens@^3.0.0 || ^4.0.0", "js-tokens@^3.0.2":
   "integrity" "sha1-mGbfOVECEw449/mWvOtlRDIJwls="
   "resolved" "https://registry.npmjs.org/js-tokens/-/js-tokens-3.0.2.tgz"
@@ -5202,6 +5207,11 @@
   "version" "3.0.0"
   dependencies:
     "find-up" "^3.0.0"
+
+"popper.js@^1.14.7":
+  "integrity" "sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ=="
+  "resolved" "https://registry.npmjs.org/popper.js/-/popper.js-1.16.1.tgz"
+  "version" "1.16.1"
 
 "portfinder@^1.0.20":
   "integrity" "sha512-ESabpDCzmBS3ekHbmpAIiESq3udRsCBGiBZLsC+HgBKv2ezb0R4oG+7RnYEVZ/ZCfhel5Tx3UzdNWA0Lox2QCA=="
