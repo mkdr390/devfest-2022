@@ -6,5 +6,9 @@
     {
         "name": "Women Techmakers",
         "logo": "assets/icons/womentechmakers.png"
+    },
+    {
+        "name": "Riglabs",
+        "logo": "assets/icons/riglabs.png"
     }
 ]
