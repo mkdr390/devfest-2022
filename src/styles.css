@@ -33,6 +33,8 @@
 .tag-session {
   font-size: 12px;
   padding: 4px;
+  max-width: 200px;
+  text-wrap: wrap;
 }
 
 [nz-button] {
@@ -79,6 +81,15 @@
   min-height: 64px;
   padding: 16px;
   border-radius: 8px;
+}
+
+.material-border-image-second {
+  border: 1px solid #CCC;
+  margin: 8px;
+  min-height: 64px;
+  padding: 16px;
+  border-radius: 8px;
+  max-height: 100px;
 }
 
 .fill-gold {

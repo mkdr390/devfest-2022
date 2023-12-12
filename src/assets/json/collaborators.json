@@ -3,5 +3,10 @@
     "name": "GDG Cloud Trivandrum",
     "logo": "assets/icons/GDGCloudTVM.png",
     "link": "https://gdg.community.dev/gdg-cloud-trivandrum/"
+  },
+  {
+    "name": "Riglabs",
+    "logo": "assets/icons/riglabs.png",
+    "link": "https://riglabs.co/"
   }
 ]

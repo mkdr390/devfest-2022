@@ -37,7 +37,7 @@
       <p class="mt-4">We have had many great DevFests, we hope to outperform ourselves with each one. This is our 9th DevFest, and hopefully better than all the ones we had so far. If you missed out on the fun last time, make sure you are a part of it this time, and if you were a part of it last year, we welcome you again.</p>
       <div class="ml-1 row">
         <a target="_blank" href="{{registrationPath}}"><button style="background-color: #4285f4;"
-            nz-button [nzSize]="'large'" nzType="primary" disabled>Register Now</button></a>
+            nz-button [nzSize]="'large'" nzType="primary" >Register Now</button></a>
       </div>
     </div>
   </div>
@@ -117,8 +117,8 @@
           </div>
           <h5 class="pt-4 pb-4">Collaborators</h5>
           <div class="text-center justify-content-center mb-2">
-            <a *ngFor="let collaborator of collaboratorsList"  target="_blank" [href]="collaborator.link">
-            <img class="material-border-image" alt="{{collaborator.name}}"
+            <a *ngFor="let collaborator of collaboratorsList; first as isFirst"  target="_blank" [href]="collaborator.link">
+            <img [ngClass]="{'material-border-image': isFirst, 'material-border-image-second': !isFirst}" alt="{{collaborator.name}}"
               [src]='collaborator.logoPath' height="200px" />
             </a>
           </div>

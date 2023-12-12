@@ -1,14 +1,14 @@
 [
   {
-    "name": "GDG",
-    "logo": "assets/icons/gdg-sponser.png",
-    "level": "Silver",
-    "link": "https://developers.google.com/community/gdg/"
+    "name": "Equipo Health",
+    "logo": "assets/icons/equipo.png",
+    "level": "Gold",
+    "link": "https://equipo.io/"
   },
   {
-    "name": "Your Name",
-    "logo": "assets/icons/yourlogohere.png",
-    "level": "Sponser Level",
-    "link": "https://google.com"
+    "name": "Finotes",
+    "logo": "assets/icons/finotes.png",
+    "level": "Silver",
+    "link": "https://finotes.com/"
   }
 ]
