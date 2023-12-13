@@ -10,5 +10,11 @@
     "logo": "assets/icons/finotes.png",
     "level": "Bronze",
     "link": "https://finotes.com/"
+  },
+  {
+    "name": "Ovyo Tech Services",
+    "logo": "assets/icons/ovyo.jpeg",
+    "level": "Bronze",
+    "link": "https://ovyo.com/"
   }
 ]
